@@ -1,10 +1,7 @@
 package actitime.actitime;
-
 import java.io.FileInputStream;
 import java.util.Properties;
-
 public class PropertyUtils {
-
 	public String getPropertyData(String filepath, String Key)
 	{
 		FileInputStream file;
@@ -20,7 +17,5 @@ public class PropertyUtils {
 			e.printStackTrace();
 		}
 		return null;
-	
 	}
-
 }
